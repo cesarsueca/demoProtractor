@@ -1,10 +1,10 @@
 // An example configuration file.
 exports.config = {
-  directConnect: false,
+  directConnect: true,
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-        'browserName': 'iexplore'
+        'browserName': 'chrome'
   },
   
   // Si queremos que los tests se lancen en varios navegadores a la vez.
