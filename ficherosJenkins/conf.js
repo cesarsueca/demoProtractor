@@ -4,7 +4,7 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-        'browserName': 'chrome'
+        'browserName': 'iexplore'
   },
   
   // Si queremos que los tests se lancen en varios navegadores a la vez.
