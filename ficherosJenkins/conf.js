@@ -1,6 +1,6 @@
 // An example configuration file.
 exports.config = {
-  directConnect: true,
+  directConnect: false,
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
