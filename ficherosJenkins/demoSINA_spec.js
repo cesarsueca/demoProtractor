@@ -10,7 +10,8 @@ describe('Probar SINA', function() {
 
    it('Búsqueda', function() {
        element(by.model('searchStr')).sendKeys('ana');
-       console.log(element(by.repeater('result in results').row(1)));
+       //console.log(element(by.repeater('result in results').row(1)));
+	   expect(browser.getTitle()).toEqual("d");
        /*var EC = protractor.ExpectedConditions;
        var guardarButton = element(by.css("button.material.ng-scope"));
        browser.wait(EC.elementToBeClickable(guardarButton), 10000);
