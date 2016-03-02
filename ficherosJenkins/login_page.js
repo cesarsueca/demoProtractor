@@ -1,6 +1,3 @@
-/**
- * Created by sfernandez on 22/02/2016.
- */
 
 var login_page = function() {
 

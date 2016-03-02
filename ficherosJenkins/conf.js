@@ -8,14 +8,14 @@ exports.config = {
   },
   
   // Si queremos que los tests se lancen en varios navegadores a la vez.
-  /* 
-  multiCapabilities: [{
+
+  /*multiCapabilities: [{
     'browserName': 'chrome'
   }, {
 	'browserName': 'firefox'
-  }],
-  */
-  
+  }],*/
+
+
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
 

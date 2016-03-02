@@ -1,6 +1,4 @@
-/**
- * Created by sfernandez on 19/02/2016.
- */
+
 
 describe('Login y búsqueda', function() {
 
@@ -19,6 +17,7 @@ describe('Login y búsqueda', function() {
         element(by.linkText("Jose Manuel Ruiz Soto")).click();
         nombrePaciente = element(by.xpath("//div[@id='patientBar']//span[.='Jose Manuel Ruiz Soto']")).getText();
         expect(nombrePaciente).toBe('Jose Manuel Ruiz Soto');
+        expect(browser.getTitle()).toEqual("Fallo"); //Fallo escrito a propósito para comprobar como falla Protractor. (Debe quitarse esta línea).
     });
 
     /*it('Probar ng-repeat', function() {
