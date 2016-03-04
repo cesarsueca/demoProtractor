@@ -1,16 +1,16 @@
 
 
-describe('Login y búsqueda', function() {
+describe('Login y busqueda', function() {
 
     beforeAll(function() {
         browser.get('http://apolo:8089/demo/');
     });
 
-    it('Página de login', function() {
+    it('Pagina de login', function() {
         login();
     });
 
-    it('Búsqueda', function() {
+    it('Busqueda', function() {
         element(by.xpath("//section[@id='station']//p[.='Consultas']")).click();
         element.all(by.css('.fa-search')).get(1).click(); //No tiene identificador
         element(by.model('filter.navPatient')).sendKeys('jose');

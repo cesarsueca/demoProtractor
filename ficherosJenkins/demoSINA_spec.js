@@ -6,7 +6,7 @@ describe('Probar SINA', function() {
         browser.get('http://artemis:9060/sina-his-mpi-front/');
     });
 
-   it('Búsqueda', function() {
+   it('Busqueda', function() {
        element(by.model('searchStr')).sendKeys('ana');
        //console.log(element(by.repeater('result in results').row(1)));
        /*var EC = protractor.ExpectedConditions;
