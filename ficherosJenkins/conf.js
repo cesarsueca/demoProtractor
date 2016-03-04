@@ -1,11 +1,11 @@
 //Configuración del informe que se crea con los resultados de las pruebas.
-var d = new Date();
+/*var d = new Date();
 d = '['+d.getFullYear()+"-"+(d.getMonth()+1)+"-" +d.getDate()+']('+d.getHours()+'.'+d.getMinutes()+'.'+d.getSeconds()+')';
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 var reporter = new HtmlScreenshotReporter({
   dest: 'reporter/'+d,
   filename: 'report.html'
-});
+});*/
 
 exports.config = {
   directConnect: true,
@@ -34,7 +34,7 @@ exports.config = {
   jasmineNodeOpts: {
     defaultTimeoutInterval: 30000
   },
-
+/*
   // Setup the report before any tests start
   beforeLaunch: function() {
     return new Promise(function(resolve){
@@ -52,6 +52,6 @@ exports.config = {
     return new Promise(function(resolve){
       reporter.afterLaunch(resolve.bind(this, exitCode));
     });
-  }
+  }*/
 
 };
